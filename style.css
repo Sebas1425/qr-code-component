@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.attribution { font-size: 8px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@media (min-width: 375px){
+    .attribution{
+        font-size: 11px; text-align: center;
+    }
+}
+
+:root{
+--White: hsl(0, 0%, 100%);
+--LightGray: hsl(212, 45%, 89%);
+--GrayishBlue: hsl(220, 15%, 55%);
+--DarkBlue: hsl(218, 44%, 22%);
+}
+
+.principal{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    background-color:var(--LightGray);
+}
+
+.second{
+    width: 250px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--White)
+}
+
+@media (min-width: 375px){
+    .second{
+    width: 350px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--White)
+    }
+}
+
+.child{
+   width: 250px;
+   height: 380px;
+   border-radius: 10px;
+   background-color: var(--White);
+}
+
+@media (min-width: 375px){
+    .child{
+    width: 330px;
+    height: 480px;
+    border-radius: 10px;
+    background-color: var(--White); 
+    }
+}
+
+.img-clas{
+    width: 230px;
+    height: 220px;
+    display: flex;
+    margin: auto;
+    background-image: url(images/image-qr-code.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+@media (min-width: 375px){
+    .img-clas{
+    width: 330px;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    background-image: url(images/image-qr-code.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    }
+}
+
+.text{
+    width: 260px;
+    height: 150px;
+    padding: 15px;
+    text-align: center;
+}
+
+@media (min-width: 375px){
+    .text{
+    width: 350px;
+    height: 150px;
+    padding: 18px;
+    text-align: center;
+    }
+}
+
+.text h1{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@media (min-width: 375px){
+    .text h1{
+        font-weight: 700;
+    }
+}
+
+.text p{
+    margin-top: 15px;
+    padding: 4px;
+    /* font-weight: 20px; */
+   
+}
+
+@media (min-width: 375px){
+    .text p{
+    margin-top: 5px;
+    padding: 15px;
+    font-weight: 15px;
+    }
+}
